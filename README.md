@@ -35,3 +35,13 @@ Say we have two random variables X and Y. What does it mean for X and Y to be in
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/39?email=kinshukram@gmail.com&token=2525ef234fbf7d9b05bc6282d0e93aafbf5d0149b8fdc521e1d78f861cdc9d30a037bd059e188b55ee2530da4e6889314afb4f7511e5d0f32000e580f9e31c3b68719c3c96c51512)
+
+## [Probability] Flipping game: Facebook [Easy]
+
+This problem was asked by Facebook.
+
+You and your friend are playing a game. The two of you will continue to toss a coin until the sequence HH or TH shows up. If HH shows up first, you win. If TH shows up first, your friend wins. What is the probability of you winning?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/40?email=kinshukram@gmail.com&token=091efb72edb95fc7082c5c5839b50b0e8b712e06d8f9569613dbba2d0c178743d0cb43b46b2015788efa630c71dd31f44602adada652852fad8412c389c7422f0777e94799d17bfe)
