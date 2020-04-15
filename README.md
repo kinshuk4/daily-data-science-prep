@@ -65,3 +65,47 @@ Given a list of positive integers, return the maximum increasing subsequence, th
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/43?email=kinshukram@gmail.com&token=ffc467e805d8ac27576f19d97b9e35ab5890bad2878d70b05f24267a60a5b1c2606dcbfe4b815869b2fe6962fcfa76fb74e84300342228a4ab2f8c47f8991e54c02363de1abbea27)
+
+## [Statistics] One extra coin toss: Robinhood [Medium]
+
+Here's today's problem:
+
+This problem was asked by Robinhood.
+
+A and B are playing a game where A has n+1 coins, B has n coins, and they each flip all of their coins. What is the probability that A will have more heads than B?
+
+## [Statistics] Linear Regression assumptions: Google [Easy]
+
+Here's today's problem:
+
+This problem was asked by Google.
+
+What are the assumptions behind linear regression? How do you diagnose if any of these assumptions are violated?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/45?email=kinshukram@gmail.com&token=ecdce503446b5a02e71beb58acad1d81095a59a0e382a7cb8361f0e5a98f157a353ceaa4e54cb8505b2c78b08fbe555f4f95de916cb7e0530671bd302f73c44e0ce781e6e9a5718e)
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/44?email=kinshukram@gmail.com&token=75a81f518ba05adf689ffa0dfd8e24a64e3a36a60cd065ef2d860fa7285f5592ff7d2b390586eecbcbdaf13cbf8082054f2ef1c727c7147303b50ab70ed425344823b5a87c234a55)
+
+## [Product/Statistics] A/B testing in streaming: Netflix [Medium]
+
+This problem was asked by Netflix.
+
+In the streaming context, for A/B testing, what are some metrics and data to track, and what are some differences versus more traditional A/B testing?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/42?email=kinshukram@gmail.com&token=b5819d94d7fa099a641a5705d5e4811d14c0ad67389e4af659e17cfbe086d1ed7f5878c23fad30e01d66652fb0281145b739d5cd3a69912d9f4d960af37fcd7e5f962be36be1ee5f)
+
+## [Statistics] Covariance of uniforms: Netflix [Hard]
+
+This problem was asked by Netflix.
+
+Say we have X ~ Uniform(-1, 1) and Y = X^2. What is the covariance of X and Y?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/46?email=kinshukram@gmail.com&token=26cffa5e0ebfb67118202ac78b5be65de0d49bf3087d334bf91ce083600d8c8981860f80a8a74eebb90aece92f1fe59b51b67fe52fc7ff883388cd125b6acb52618d3b08c9dc199c)
