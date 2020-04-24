@@ -109,3 +109,14 @@ Say we have X ~ Uniform(-1, 1) and Y = X^2. What is the covariance of X and Y?
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/46?email=kinshukram@gmail.com&token=26cffa5e0ebfb67118202ac78b5be65de0d49bf3087d334bf91ce083600d8c8981860f80a8a74eebb90aece92f1fe59b51b67fe52fc7ff883388cd125b6acb52618d3b08c9dc199c)
+
+## [Product] Rider App Change: Lyft [Easy]
+
+This problem was asked by Lyft.
+
+Your team is trying to figure out whether a new driver app with extra UI features will increase the number of rides taken. How would you test whether the extra features in the app make it better than the original version?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/50?email=kinshukram@gmail.com&token=d068ea66080f4a33aef1cad6d2031973d783ee7256b8e4b39a1996e2534eab121e4624057797f7c9923606bb1917406af133f29d4f1cb4a66fb3368ddc8897aa565c7d8e5843b4f1)
+
