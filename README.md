@@ -120,3 +120,10 @@ Your team is trying to figure out whether a new driver app with extra UI feature
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/50?email=kinshukram@gmail.com&token=d068ea66080f4a33aef1cad6d2031973d783ee7256b8e4b39a1996e2534eab121e4624057797f7c9923606bb1917406af133f29d4f1cb4a66fb3368ddc8897aa565c7d8e5843b4f1)
 
+## [ML] Adding noise: Google [Hard]
+
+This problem was asked by Google.
+
+Say we are running a probabilistic linear regression which does a good job modeling the underlying relationship between some y and x. Now assume all inputs have some noise ε added, which is independent of the training data. What is the new objective function? How do you compute it?
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/51?email=kinshukram@gmail.com&token=c532e4e3d71241a65b2c3868d584d862ba8b2e51d0ab03802280d064636596cffe7d58790c430e3640dc91116170ea0dd508bc2686971adcc330d1bace219d4fbb2d2345047321b0)
