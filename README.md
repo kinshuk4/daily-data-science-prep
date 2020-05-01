@@ -127,3 +127,15 @@ This problem was asked by Google.
 Say we are running a probabilistic linear regression which does a good job modeling the underlying relationship between some y and x. Now assume all inputs have some noise ε added, which is independent of the training data. What is the new objective function? How do you compute it?
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/51?email=kinshukram@gmail.com&token=c532e4e3d71241a65b2c3868d584d862ba8b2e51d0ab03802280d064636596cffe7d58790c430e3640dc91116170ea0dd508bc2686971adcc330d1bace219d4fbb2d2345047321b0)
+
+## [Coding] Friendship distance: Facebook [Medium]
+
+This problem was asked by Facebook.
+
+You have the entire social graph of Facebook users, with nodes representing users and edges representing friendships between users. Given the edges of the graph and the number of nodes, write a function to return the smallest number of friendships in-between two users.
+
+For example, if the graph consists of 5 users A, B, C, D, E, and the friendship edges are: (A, B), (A, C), (B, D), (D, E) then the function should return 2 for the input A and E.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/53?email=kinshukram@gmail.com&token=883416d219efa78c5119ee2831263bae442872480653c67156ffe6131d53c0d2c1a7078816806e51f48a3069537fc336e78cb48d870d28677dfe11f4544bda7a99a3f632d8ce06c9)
