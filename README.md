@@ -139,3 +139,33 @@ For example, if the graph consists of 5 users A, B, C, D, E, and the friendship 
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/53?email=kinshukram@gmail.com&token=883416d219efa78c5119ee2831263bae442872480653c67156ffe6131d53c0d2c1a7078816806e51f48a3069537fc336e78cb48d870d28677dfe11f4544bda7a99a3f632d8ce06c9)
+
+## [ML] Item Propensity Modeling: Stitch Fix [Medium]
+
+This problem was asked by Stitch Fix.
+
+How would you build a model to calculate a customer's propensity to buy a particular item? What are some pros and cons of your approach?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/55?email=kinshukram@gmail.com&token=5eed632a51e67139eac9b88ab6a46727b240235dbd2d3f58233afc352f98caf12c8cb307948a9b546b063c030a87b99d6d9a4f04dcb032dd30521b06bce3a252c045786646c91729)
+
+## [Statistics] Area of Circle: Lyft [Medium]
+
+This problem was asked by Lyft.
+
+Say you pick the radius of a circle from a uniform distribution between 0 and 1. What is the probability density of the area of the resulting circle?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/57?email=kinshukram@gmail.com&token=5f95700a24f16d111bbf74033b051dee2b13b4a9ea5d61b5829fbf74023de7803f6642baeb09d1153e59de663f407fdcd8dd0c8d5de1081e2e9c4d84b7e4ce51bc922c446b3e69f0)
+
+## [Coding] Mirror Binary Tree: Pinterest [Easy]
+
+This problem was asked by Pinterest.
+
+Given a binary tree, write a function to determine whether the tree is a mirror image of itself. Two trees are a mirror image if their root values are the same and the left subtree is a mirror image of the right subtree.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/58?email=kinshukram@gmail.com&token=b49b82ef9b69053facec3f2070ba63c7d1bded2e9e9771898b54bf8e3ddb75332a665c63cd2f359284f6842a3eb1c704cc50f6d1801048a1eebdaeb280e1e10de436332f7c55d065)
