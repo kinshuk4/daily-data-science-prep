@@ -169,3 +169,23 @@ Given a binary tree, write a function to determine whether the tree is a mirror 
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/58?email=kinshukram@gmail.com&token=b49b82ef9b69053facec3f2070ba63c7d1bded2e9e9771898b54bf8e3ddb75332a665c63cd2f359284f6842a3eb1c704cc50f6d1801048a1eebdaeb280e1e10de436332f7c55d065)
+
+## [ML] K-means Clustering Update: Netflix [Hard]
+
+This problem was asked by Netflix.
+
+What is the loss function used in k-means clustering for k clusters and n sample points? Compute the update formula using 1) batch gradient descent, 2) stochastic gradient descent for the cluster mean for cluster k using a learning rate ε.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/62?email=kinshukram@gmail.com&token=7da4c40ec42d74c891871d5e0d2ba21630838aa4472e73049c8f0a40e2198d4baa46b312924b10cd58ef7875f5361b391d9e612ba4c9ee1b07673cefd2225305bdd44d553b0c4aa2)
+
+## [Probability] Increasing Dice Order: Uber [Easy]
+
+This problem was asked by Uber.
+
+Say you roll three dice, one by one. What is the probability that you obtain 3 numbers in a strictly increasing order?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/66?email=kinshukram@gmail.com&token=2733c32c99839ef5c0cd70a35466ad2b5fe424dad7ea46ffa7109e7a11c2720e8ab1d23db9933e5e57d2c946d9ecef48b0cedfc24ab4b11bbb2deb0a2cd3029c93a43996fb38d41a)
