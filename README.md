@@ -180,6 +180,16 @@ What is the loss function used in k-means clustering for k clusters and n sample
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/62?email=kinshukram@gmail.com&token=7da4c40ec42d74c891871d5e0d2ba21630838aa4472e73049c8f0a40e2198d4baa46b312924b10cd58ef7875f5361b391d9e612ba4c9ee1b07673cefd2225305bdd44d553b0c4aa2)
 
+## [Product] Improving Product Engagement: Twitter [Easy]
+
+This problem was asked by Twitter.
+
+How would you improve product engagement on Twitter?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/65?email=kinshukram@gmail.com&token=f01ad2d1f48030c91278e0cd4c61d5345f46265eb267d58f21532d563db52468552f9c859563a236b839843319e3320e34214a2940eea3ee4ad7c1e1a0bb21dda5057956a5ed83c6)
+
 ## [Probability] Increasing Dice Order: Uber [Easy]
 
 This problem was asked by Uber.
@@ -189,3 +199,13 @@ Say you roll three dice, one by one. What is the probability that you obtain 3 n
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/66?email=kinshukram@gmail.com&token=2733c32c99839ef5c0cd70a35466ad2b5fe424dad7ea46ffa7109e7a11c2720e8ab1d23db9933e5e57d2c946d9ecef48b0cedfc24ab4b11bbb2deb0a2cd3029c93a43996fb38d41a)
+
+## [Statistics] MLE of Uniform: Spotify [Medium]
+
+This problem was asked by Spotify.
+
+Say you draw n samples from a uniform distribution U(a, b). What is the MLE estimate of a and b?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/67?email=kinshukram@gmail.com&token=0f7ff4b3273653ea02cc7b5cb81b9876dc267a96c6bd3dbee1b824b02df5c998ac3aca0ab9cbeda3b996b990e32fb4bcb6ece1ad6f2a90cfc7ec5fbb5f17b6a8dfbfc974d70cd561)
