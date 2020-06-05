@@ -209,3 +209,13 @@ Say you draw n samples from a uniform distribution U(a, b). What is the MLE esti
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/67?email=kinshukram@gmail.com&token=0f7ff4b3273653ea02cc7b5cb81b9876dc267a96c6bd3dbee1b824b02df5c998ac3aca0ab9cbeda3b996b990e32fb4bcb6ece1ad6f2a90cfc7ec5fbb5f17b6a8dfbfc974d70cd561)
+
+## [Coding] Median of Data Stream: Palantir [Hard]
+
+This problem was asked by Palantir.
+
+Given a stream of elements (of arbitrary size), write a class to find the median at any given time. Your class should have a function to add numbers to the stream and a function to calculate the median.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/68?email=kinshukram@gmail.com&token=f6ef4600822280d8d42425b6087fcb4dcaf0e8ccd686e29b3cbb7ea5832af042062532c1c09b2ef409b253551354d712ff39495a4af3588c9f2e7fb23bbd7fe271850e8794037884)
