@@ -219,3 +219,23 @@ Given a stream of elements (of arbitrary size), write a class to find the median
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/68?email=kinshukram@gmail.com&token=f6ef4600822280d8d42425b6087fcb4dcaf0e8ccd686e29b3cbb7ea5832af042062532c1c09b2ef409b253551354d712ff39495a4af3588c9f2e7fb23bbd7fe271850e8794037884)
+
+## [SQL] Most active users: Twitter [Medium]
+
+This problem was asked by Twitter.
+
+Assume you are given the below tables for the session activity of users. Write a query to assign ranks to users by the total session duration for the different session types they have had between a start date (2020-01-01) and an end date (2020-02-01).
+
+### Sessions
+
+| column_name  | type     |
+| ------------ | -------- |
+| session_id   | integer  |
+| user_id      | integer  |
+| session_type | string   |
+| duration     | integer  |
+| start_time   | datetime |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/69?email=kinshukram@gmail.com&token=3547604a21866550ffea2caa13133955a290e5a8f0c2c12899b95b670f0a77ac795be1fdb0d639251e32c36f1b322a4a66f60d4d3b95b956fe300db2ad11ecba6c16f7140da7e742)
