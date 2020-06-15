@@ -239,3 +239,13 @@ Assume you are given the below tables for the session activity of users. Write a
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/69?email=kinshukram@gmail.com&token=3547604a21866550ffea2caa13133955a290e5a8f0c2c12899b95b670f0a77ac795be1fdb0d639251e32c36f1b322a4a66f60d4d3b95b956fe300db2ad11ecba6c16f7140da7e742)
+
+## [Statistics] Clicking variances: Google [Easy]
+
+This problem was asked by Google.
+
+Say you have two countries of interest and want to compare variances of clicking behavior from users (i.e. total distribution of clicks). How would you do this comparison, and what assumptions need to be met?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/72?email=kinshukram@gmail.com&token=d52e3a86e7b5a2448907fb86c20c7466ad800ac9ffae174bdbd12a0d1d60e4ba876ab6dbb589ec0d0cf098c81b0b8ffdf982ee0df1e8bbf10e8270b498dda8fe81c62c2228828948)
