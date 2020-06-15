@@ -240,6 +240,18 @@ Assume you are given the below tables for the session activity of users. Write a
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/69?email=kinshukram@gmail.com&token=3547604a21866550ffea2caa13133955a290e5a8f0c2c12899b95b670f0a77ac795be1fdb0d639251e32c36f1b322a4a66f60d4d3b95b956fe300db2ad11ecba6c16f7140da7e742)
 
+## [Probability] First toss: Lyft [Medium]
+
+Here's today's problem:
+
+This problem was asked by Lyft.
+
+A fair coin is tossed n times. Given that there were k heads in the n tosses, what is the probability that the first toss was heads?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/71?email=kinshukram@gmail.com&token=5477ea9dbec34a4b15b454a60a844764c6e061a9dedf8c3a0e39ecf2a07259f39c7c9eeb2adb3e1721a480d663fbacd9374a7770eeaea7a6275a0190d893aeb611783b60037fec66)
+
 ## [Statistics] Clicking variances: Google [Easy]
 
 This problem was asked by Google.
