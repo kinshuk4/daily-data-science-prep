@@ -240,6 +240,12 @@ Assume you are given the below tables for the session activity of users. Write a
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/69?email=kinshukram@gmail.com&token=3547604a21866550ffea2caa13133955a290e5a8f0c2c12899b95b670f0a77ac795be1fdb0d639251e32c36f1b322a4a66f60d4d3b95b956fe300db2ad11ecba6c16f7140da7e742)
 
+## [Product] Two-factor Authentication: Robinhood [Easy]
+
+This problem was asked by Robinhood.
+
+Say you are deciding whether to implement two-step authentication when users log in. What data would you look at and how can you make your decision?
+
 ## [Probability] First toss: Lyft [Medium]
 
 Here's today's problem:
@@ -261,3 +267,497 @@ Say you have two countries of interest and want to compare variances of clicking
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/72?email=kinshukram@gmail.com&token=d52e3a86e7b5a2448907fb86c20c7466ad800ac9ffae174bdbd12a0d1d60e4ba876ab6dbb589ec0d0cf098c81b0b8ffdf982ee0df1e8bbf10e8270b498dda8fe81c62c2228828948)
+
+## [Coding] Finding the Peaks: Reddit [Medium]
+
+This problem was asked by Reddit.
+
+Given an array A of positive integers, a peak element is defined as an element that is greater than its neighbors.
+
+For example, if A = [3, 5, 2, 4, 1] you should return either 1 or 3 since index 1 is 5, and index 3 is 4, and both are peak elements. Find the index of any peak elements.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/73?email=kinshukram@gmail.com&token=526ad7b778b9cdfa9cdf508ab93e2503e257e05eff591fccfb3cf4dc35ba260e11bdd0bc563ffb70a3541b7051d84d481da35275c08c865f1c124f6763a0fe49c3c0a11820625117)
+
+## [ML] Sensor Sensitivity: Tesla [Hard]
+
+This problem was asked by Tesla.
+
+You're working with several sensors that are designed to predict a particular energy consumption metric on a vehicle. Using the outputs of the sensors, you build a linear regression model to make the prediction. There are many sensors, and several of the sensors are prone to complete failure. What are some cost functions you might consider, and which would you decide to minimize in this scenario?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/74?email=kinshukram@gmail.com&token=26c2e286c9084df531fea26d0ae1c75f1eab4da06a7f57f20f0e66ea07753eb1c9c27b9e5023e673a75d3d4c6cc23694acbc79f7adaa66f3282c36dfa8c594432232c24bf5d430d4)
+
+## [SQL] Activity Breakdown by Age: Snapchat [Medium]
+
+This problem was asked by Snapchat.
+
+Assume you are given the below tables on users and their time spent on sending and opening Snaps. Write a query to get the breakdown for each age breakdown of the percentage of time spent on sending versus opening snaps.
+
+### activities
+
+| column_name   | type                    |
+| ------------- | ----------------------- |
+| activity_id   | integer                 |
+| user_id       | integer                 |
+| type          | string ("send", "open") |
+| time_spent    | float                   |
+| activity_date | datetime                |
+
+### age_breakdown
+
+| column_name | type    |
+| ----------- | ------- |
+| user_id     | integer |
+| age_bucket  | string  |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/75?email=kinshukram@gmail.com&token=e3eea63d7e4cbd7cd4f14d1daedc7afd2f7a4ff565551fa414078bbf37a5bd2005af6e19b01d3bdc27714e9c197ab48a961da460c966e4058044b0d504bce6908131eb5c5439b4b9)
+
+## [Product] Measuring Comments: Facebook [Easy]
+
+This problem was asked by Facebook.
+
+Let's say Facebook has expanded into a previously untapped geographical region. Looking at weekly metrics, you see a slow decrease in the average number of comments per user over several months. You also know that new users have been growing at a steady linear rate in the area for the same time frame. What are some reasons why the average number of comments per user would be decreasing and what metrics would you look into?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/76?email=kinshukram@gmail.com&token=1a88bb3d90af0d8dcfcc86118494aaba508c94cfc349372b79ace22edd5e2504eb5d3a72b78222404a9603f568c25391d6ca23eb1224f96ab85c7bd4e350da9fba41178326958954)
+
+## [Statistics] Uncorrelated Condition: Airbnb [Medium]
+
+This problem was asked by Airbnb.
+
+Suppose we have two random variables X and Y. Under what condition are X+Y and X-Y uncorrelated?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/77?email=kinshukram@gmail.com&token=49f9dcdbd5139cba913a984e3a9f1764321fac9a400d61ed7c977d401a0a5ee4920cb4ea4c3249fe520d8a2f524d99193b2d042e8389563d6cc1527f2b7b25aa21e735f232701db3)
+
+## [Probability] Coin Recursion: Robinhood [Medium]
+
+This problem was asked by Robinhood.
+
+A biased coin, with probability p of landing on heads, is tossed n times. Write a recurrence relation for the probability that the total number of heads after n tosses is even.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/78?email=kinshukram@gmail.com&token=0b8299ea61c1cf11ef16cfe936ea45d563ad41cb1f007821b156c89c9e8479c566fa9dc839f3096008e15b319daf5fdb9193ed294b5a601db39de987d6d3a7e57e787dbb4997eb3e)
+
+## [Coding] Topic Groups: Twitter [Medium]
+
+This problem was asked by Twitter.
+
+Say that there are n topics on Twitter and there is a notion of topics being related. Specifically, if topic A is related to topic B, and topic B is related to topic C, then topic A is indirectly related to topic C.
+
+Define a topic group to be any group of topics that either directly or indirectly related. Given an n by n adjacency matrix N, where N[i][j] = 1 if topic i and topic are j related and 0 otherwise, write a function to determine how many topic groups are there.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/79?email=kinshukram@gmail.com&token=0ba94ab436231a81e0845848e863c667d31673cb331e0d4522925ab9729685ba3e03bca594c69c204b82d7ca077676595ab28342b3136c915711a3bf8520849dfc0331600be2b917)
+
+## [SQL] Concurrent Users: Pinterest [Medium]
+
+This problem was asked by Pinterest.
+
+Assume you are given the below table on sessions from users, with a given start and end time. A session is concurrent with another session if they overlap in their start and end times. Write a query to output the session that is concurrent with the largest number of other sessions.
+
+## sessions
+
+| column_name  | type     |
+| ------------ | -------- |
+| session_id   | integer  |
+| user_id      | integer  |
+| session_type | string   |
+| duration     | integer  |
+| start_time   | datetime |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/80?email=kinshukram@gmail.com&token=aa7381cd002acaa2b87a4eeecc2ca304f5dda392f75524f8e210fd4e9f8f77aa7a6ca0734da33f4f846937357b193a369e519b04fc71853cbf1049235cdd6d470e624764c5517526)
+
+## [Product] Posting Drop: Facebook [Easy]
+
+This problem was asked by Facebook.
+
+Let’s say that the usage of a Facebook posting tool dropped from 2% posts per user last month to 1% post per user today. What might be some potential causes and how would you go about understanding this drop?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/81?email=kinshukram@gmail.com&token=f18cecfd6e3a1a37a1a3ef85304e9672b8f2db5e51d32350c8a97f577941fb266bd334ffa7866c0eb58b55caf3d440156b42078e34c5f6cc9df536cde0e3bc685d92545f46618a06)
+
+## [Statistics] Bernoulli Samples: Stripe [Medium]
+
+This problem was asked by Stripe.
+
+Consider a Bernoulli random variable with parameter p. Say you observe the following samples: [1, 0, 1, 1, 1]. What is the log likelihood function for p and what is the MLE of p?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/82?email=kinshukram@gmail.com&token=150723896cb73c3070ebba6ffbe192ade278757879ba8925a596c567403e86a8ff1e0809764c4f63450ec048c815d37f4ce1500c632d668d2c8099b8b5e7d342bea281fa2867bb1d)
+
+## [ML] Expectation Maximization: Netflix [Hard]
+
+This problem was asked by Netflix.
+
+What is Expectation-Maximization and when is it useful? Describe the setup algorithmically with formulas.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/83?email=kinshukram@gmail.com&token=2b963e2b7aaf0a32c1e4cbbffc6290b0e812c505c04197e61fbaac20688ac6c48222f899aa4e38a0588db7ab227b89a8e1062445ef7addbeee458be00bd9ee3ee3145bb0191ba0fd)
+
+## [Probability] Random Testing: Lyft [Easy]
+
+This problem was asked by Lyft.
+
+Say that you are pushing a new feature X out. You have 1000 users and each user is either a fan or not a fan of X, at random. There are 50 users of 1000 that do not like X. You will decide whether to ship the feature or not based on sampling 5 users independently and if they all like the feature, you will ship it. What is the probability that you will ship the feature?
+
+## [Coding] Permutations: Dropbox [Medium]
+
+This problem was asked by Dropbox.
+
+Given n distinct integers, write a function to generate all permutations of those integers.
+
+## [SQL] Frequent Shopper: Stitch Fix [Easy]This problem was asked by Stitch Fix.
+
+Assume you are given the below table on purchases from users. Write a query to get the number of people that purchased at least one product on multiple days.
+
+## purchases
+
+| column_name   | type     |
+| ------------- | -------- |
+| purchase_id   | integer  |
+| user_id       | integer  |
+| product_id    | integer  |
+| quantity      | integer  |
+| price         | float    |
+| purchase_time | datetime |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/86?email=kinshukram@gmail.com&token=ce1cd008d769813ee05ff0b222927a57aa1a8e4731285a497be5f333722c39576b96c7a52dc0a7df686a2523395003c27fc4b24eb6dc42d3b98c3ef3e096e8a1820769f3dd2565bf)
+
+## [Statistics] Min Dice Roll: Uber [Hard]
+
+This problem was asked by Uber.
+
+A fair die is rolled n times. What is the expected value and the standard deviation of the smallest number rolled?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/87?email=kinshukram@gmail.com&token=83062f33f49cd44e3f12bfe9f82382cb3a06657e7f4f1f0277a38a5b0a7cbf92160d0b96e2cf0bdef4f3d1057c6abca8f96e3b77828bc0c206547583c9687641a07d44eb31daf45e)
+
+
+
+## [Product] Disney+ Retention: Disney [Easy]
+
+This problem was asked by Disney.
+
+Disney+ offers a 7-day free trial period. After 7 days, customers are charged whatever package they chose. Assume that there are customers who commit to Disney+ right away and therefore don't end up having a 7-day free trial period.
+
+Disney wants to measure the success of the free trial. What metrics and analysis might you do to determine whether or not the free trial successfully acquires new customers?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/88?email=kinshukram@gmail.com&token=323c9187395c2c4203ec20309b356d3da18a3593afe7c044e88f5cdcc8bf20ac227ce7e1804addb458c9fe7b6a9878f1ffc8a3674141d8e8977e56f3ac477e2cfc7b336a28f8fa07)
+
+## [Probability] Game Series: Facebook [Medium]
+
+This problem was asked by Facebook.
+
+Alice and Bob are playing a new Facebook game together. They play a series of rounds until one of them wins two more rounds than the other. With probability p, Alice will win each round. What is the probability that Bob wins the overall series?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/89?email=kinshukram@gmail.com&token=8f458201413715a953dc24389a3980f8af813aace1baf0dc4c2068cc20cd0d0cfd393c83e060c3dfb049b7d64895fb461d3873c4247a95656adf331be0f5e05a4f8fcb3f83e259b9)
+
+## [SQL] Top Places: Yelp [Medium]
+
+This problem was asked by Yelp.
+
+Assume you are given the below table on reviews from users. Define a top-rated place as a business whose reviews only consist of 4 or 5 stars. Write a query to get the number and percentage of businesses that are top-rated places.
+
+## reviews
+
+| column_name  | type     |
+| ------------ | -------- |
+| business_id  | integer  |
+| user_id      | integer  |
+| review_text  | string   |
+| review_stars | integer  |
+| review_date  | datetime |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/90?email=kinshukram@gmail.com&token=acbce1f3a9069c21252289a5d75ed26ec77126af8ecbff6613a8a086db1c7e1d890a03add3b994a240114be4fa34e34b63cec69ce94ea0048626d3688a8af5ed48130531275d95ef)
+
+## [Statistics] Expected Swaps: Robinhood [Medium]
+
+This problem was asked by Robinhood.
+
+Say you have n integers 1...n and take a random permutation. For any integers i, j let a swap be defined as when the integer i is in the jth position, and vice versa. What is the expected value of the total number of swaps?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/91?email=kinshukram@gmail.com&token=b10dac62d1e7f3270633143a8930531ac0bfb9477f6ad9f941cd188e26372a9357afede6f7329d355d17f208c53b4383e19d724dca77ac59c2c22e92c73f8c494dd52387d9734990)
+
+## [Coding] Intersection of Two Arrays: Pinterest [Easy]
+
+This problem was asked by Pinterest.
+
+Given two arrays, write a function to get the intersection of the two.
+
+For example, if A = [2, 4, 1, 5, 0], and B = [3, 4, 5] then you should return [4, 5].
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/92?email=kinshukram@gmail.com&token=7847c51df44c47e13669f8525fd54ca882b37fd280e9898bd0573654c4d671b6d867e8e1d001292977ea59feec0a5699f4ab1a3a65fbee04bea5cf49f878109fb6ec019a1cf3e33c)
+
+## [ML] Fraud Detection: Stripe [Hard]
+
+This problem was asked by Stripe.
+
+Say we are using a Gaussian Mixture Model (GMM) for anomaly detection on fraudulent transactions to classify incoming transactions into K classes. Describe the model setup formulaically and how to evaluate the posterior probabilities and log likelihood. How can we determine if a new transaction should be deemed fraudulent?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/93?email=kinshukram@gmail.com&token=bef7fdad0631c2a9e776342abf0c6222d352894d104bae9b8cca49223f5a315bc663808bed6affb0895c16da70733fd02f185321ce4c2efa2411c9f0a44a870241299062d9238850)
+
+## [Product] Shipment Times: Wayfair [Easy]
+
+This problem was asked by Wayfair.
+
+If you are selling a product and want to decrease the shipment time from 2 days to 1 day to increase your amount of customers, what are 2 ways to quantify it and 2 risks of this idea?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/94?email=kinshukram@gmail.com&token=51c9b77aae83b5434a7966d27938bfb9bdf44ee93f52d00f2c3ad49412ba2bad45f68c21f716b2ada7651b314a4c8eea4dcb023a3bb5fd59b64546ad72074275db39cdace5b84588)
+
+## [Probability] User Virality: Snapchat [Medium]
+
+This problem was asked by Snapchat.
+
+You are analyzing the probability of failure or success of a small social media app competitor. Using some initial data, you estimate that any step, if there is are 1 user then after a day there is a 1/12 chance there will be 0 users, 5/12 chance there will be 1 user, and 1/2 chance there will be 2 users. Say the app starts with one user on day 1. What is the probability that the app will eventually have no users?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/95?email=kinshukram@gmail.com&token=e762f55e2507cb57f87a7bdf8158eadd26da5e9cd1c260c1b19b024c66445702d2f881065f8a15a7ed3cfb13078993cf01a6e52bbda87616df6c18557612a8766a084324aae8a7d4)
+
+## [Statistics] Bivariate Independence: Lyft [Medium]
+
+This problem was asked by Lyft.
+
+Suppose we have two random variables, X and Y, which are bivariate normal. The correlation between them is -0.2. Let A = cX + Y and B = X + cY. For what values of c are A and B independent?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/96?email=kinshukram@gmail.com&token=d1efcb8afedfe8f9d8d4822026bb58992971d03102dc3e727dd37a31415a70982bda8260dd433598fda17eae6bc804a48dabdf9e9b5a2815595df21f9bd8283908000ef7f6e4c9ef)
+
+## [Product] LinkedIn Status: LinkedIn [Easy]
+
+This problem was asked by LinkedIn.
+
+LinkedIn recently launched a "status" feature where you can now see if a LinkedIn connection is online, symbolized by a green dot, idle, symbolized by an orange dot, or offline (grey dot) status that says how long ago the user was active. Assume that this feature has been around for a few months. What metrics would you look at to assess the success of this feature?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/97?email=kinshukram@gmail.com&token=6f56b494ef92fd6aeb467733b2720bd2eda0a33577d2d7fb30694db3e32d3dff574679830d8066c59ec77e19cf8c821f2ca379cb7e937f2843b9b356d92f1d4834f320a19f3d52b5)
+
+## [SQL] Uneven Measurements: Google [Medium]
+
+This problem was asked by Google.
+
+Assume you are given the below table of measurement values from a sensor for several days. Each measurement can happen several times in a given day. Write a query to output the sum of values for every odd measurement and the sum of values for every even measurement by date.
+
+### measurements
+
+| column_name       | type     |
+| ----------------- | -------- |
+| measurement_id    | integer  |
+| measurement_value | integer  |
+| measurement_time  | datetime |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/98?email=kinshukram@gmail.com&token=b864eb204d6152e7147b589ef2f78e70a922e31165fb88e5596718a58ba58e864ab20e2b7dbb05ad0f8b79187f5fed671c8c1cff3ae77f3c38186c084ae659cd97e9a0386beeeaf0)
+
+## [Coding] Palindromic Subset: Airbnb [Medium]
+
+This problem was asked by Airbnb.
+
+Given a number x, define a palindromic subset as any subsequence within x that is a palindrome. Write a function that returns the number of digits of the longest palindromic subset.
+
+For example, if x is 93567619 then you should return 5 since the longest subset would be 96769, which is a 5 digit number.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/99?email=kinshukram@gmail.com&token=78f79097d3a2db5df5b630dd0f03ecbcf292e3e9e1872eee9ed6fc7ae5ded9135400f42680a85814e051c805f84721ab34772c63db3ab0cc258d5bffe75d00da4a2988d8c5349641)
+
+
+
+## [Probability] Replacement Frequency: Tesla [Hard]
+
+This problem was asked by Tesla.
+
+Suppose there is a new vehicle launch upcoming. Initial data suggests that any given day there is either a malfunction with some part of the vehicle or possibility of a crash, with probability p which then requires a replacement. Additionally, each vehicle that has been around for n days must be replaced. What is the long-term frequency of vehicle replacements?
+
+## [ML] Information Gain & Entropy: Microsoft [Medium]
+
+This problem was asked by Microsoft.
+
+Explain what Information Gain and Entropy are in a Decision Tree.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/101?email=kinshukram@gmail.com&token=029f7ecd76a7bfcec60a1449930e0d4b876d94c53b57abd3dff01f77adf7b5b597d0b97512475f0b3bbf2ad276fba31473124e71d0d9393f0f7386745dfb8ce590c1238ca559a8c2d8)
+
+## [Statistics] Lifetime Likelihood: Snapchat [Medium]
+
+This problem was asked by Snapchat.
+
+Say you have a large amount of user data that measures the lifetime of each user. Assume you model each lifetime as exponentially distributed random variables. What is the likelihood ratio for assessing two potential λ values, one from the null hypothesis and the other from the alternative hypothesis?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/102?email=kinshukram@gmail.com&token=6a868a3c484219ae0969b9b772745fecaea2167ebab06be0ba69565c921817b8c2e906abe6e105d53f547dd2fc2aeb65abd0a31f73d1b13252f12e0d5d4349ce803feecd9c6e6c1f93)
+
+## [Product] Acquiring New Customers: Dropbox [Easy]
+
+This question was asked by Dropbox.
+
+You are a data scientist who works directly with the CEO. Your boss says she is incredibly ecstatic because the average cost of acquiring a customer is a lot lower than the expected value of a customer. She thinks that the acquisition cost has been minimized and the value of a customer has almost been maximized. Help her interpret the metric and give a suggestion about how she should use it to try and maximize revenue.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/103?email=kinshukram@gmail.com&token=c2be155dccec393e5cabe9a3e87c680e581f5b67989234937c1e4f3e260f9c9967c1f37120e1df1061f6b1d2c6e8781904ea49f2fc4669783b7fd0768392e23d2de5398e49c852ce5e)
+
+## [Coding] Splitting Parentheses: Twitter [Medium]
+
+This problem was asked by Twitter.
+
+Given a string with lowercase characters and left and right parentheses, remove the minimum number of parentheses so that the string is valid.
+
+For example, if the string is ")a(b((cd)e(f)g)" then return "ab((cd)e(f)g)".
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/104?email=kinshukram@gmail.com&token=e6ac3b13c9ab66b4cd299ead664b075c2bf1741b603a8062da4aa7c2aab5e3cd178323c097a587a99bdd9391bc1f1b6dc3ca168325423fa4e763efa3895ebd2e78356766f59712b332)
+
+## [ML] Kernel Regression Estimator: Netflix [Hard]
+
+This problem was asked by Netflix.
+
+Describe the idea and mathematical formulation of kernel smoothing. How do you compute the kernel regression estimator?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/105?email=kinshukram@gmail.com&token=77abd025d601d883f1656f94d1fdc06c4c8c4f4ed328082e89d14f642e06864365ff14b7823384dd9a672ac7ca9a2c5657f7b86f92814dcc835c363b61e7cae477ff34ec21b9dee5bf)
+
+## [Product] Slack Engagement: Slack [Easy]
+
+This problem was asked by Slack.
+
+What are some metrics you would use to measure user engagement at Slack? How would you be able to tell early whether or not user engagement is declining?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/106?email=kinshukram@gmail.com&token=f6f5a772672dc58eec2b2a8f7ecd323b8ee1a0b733446ade721449d941af0589eb62b86bff26c64d200a898efc9886f1d473b247039f304a25b7779ed8648a644a4c10828cdfde77b5)
+
+## [Probability] Favorite Show: Disney [Medium]
+
+This problem was asked by Disney.
+
+Alice and Bob are choosing their top 3 shows from a list of 50 shows. Assume that they choose independently of one another. Being relatively new to Hulu, assume also that they choose randomly within the 50 shows. What is the expected number of shows they have in common, and what is the probability that they do not have any shows in common?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/107?email=kinshukram@gmail.com&token=b65bbd05df41238b696ae9d4ce19291a140f30d96011da09d3eb2f94f79eda3dedd3984006aa07083d234f539d2ebc83dc34c3d875dad677bfeef94d449e518a5c7ecb72d7b01f35f1)
+
+## [SQL] Product Placement: Etsy [Medium]
+
+This problem was asked by Etsy.
+
+Assume you are given the below table on transactions from various product search results from users on Etsy. For every given product keyword, there are multiple positions that being A/B tested, and user feedback is collected on the relevance of results (from 1-5).
+
+There are many displays for each position of every product, each of which is captured by a display_id. Define a highly relevant display as one whereby the corresponding relevance score is at least 4.
+
+Write a query to get all products having at least one position with > 80% highly relevant displays.
+
+### product_searches
+
+| column_name | type     |
+| ----------- | -------- |
+| product     | string   |
+| position    | integer  |
+| display_id  | integer  |
+| relevance   | integer  |
+| submit_time | datetime |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/108?email=kinshukram@gmail.com&token=104ebdedcdaf387670122cf19bd1ed3daf7bbf141e153320b662561927ca4036d0b70b5745c0777b8f5d4833b381a183f92638e9a87c8691cb6290960f765394876b2b7796610ff2ad)
+
+## [Statistics] Lifetime Difference: Tesla [Medium]
+
+This problem was asked by Tesla.
+
+Say that the lifetime of electric vehicles are modeled using a Gaussian distribution. Each type of electric vehicle has an expected lifetime and a lifetime variance. Say you chose two different types of electric vehicles at random. What is the probability that the two lifetimes will be within n time units?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/109?email=kinshukram@gmail.com&token=7771b2a9962a92cae1ef24d95d7146ce2fc9326272c012830ce7a8a730836b9c5f666954733655a26fc063554158ad87f713cfdf2dcf6871534f3c11f51a9ab108b443e0263dd981c6)
+
+## [Coding] First Missing Positive: Snapchat [Hard]
+
+This problem was asked by Snapchat.
+
+Given an arbitrary array of positive integers, find the smallest missing positive integer. Can you do it with O(1) space?
+
+For example, if A = [1, 3, 6, 2, 7] and then you should return 4.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/110?email=kinshukram@gmail.com&token=e41db0d1eeae97f223293b27116b4a5b23f04c6dfc1d2304be3948c836ee2318349fd3484f464ccc534257b475a1b9ebee57dc168513638ec8d04617ad8d09059be3bbe2e93018c28d)
+
+## [Probability] Different Dice Rolls: Facebook [Easy]
+
+This problem was asked by Facebook.
+
+Say you roll three dice and observe the sum of the three rolls. What is the probability that the sum of the outcomes is 12, given that the three rolls are different?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/111?email=kinshukram@gmail.com&token=575b519fcb8cb06286ac872d2328fb3b35feb94db49171ac9b88acb610db5810868bc332f61509f15763cf6cc77da63323ef307c8229e5708360d768be06c355444c91415a325b7a86)
+
+## [ML] Guessing Gaussian: Stripe [Hard]
+
+This problem was asked by Stripe.
+
+Say we have N observations for some variable which we model as being drawn from a Gaussian distribution. What are your best guesses for the parameters of the distribution? Derive it mathematically.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/112?email=kinshukram@gmail.com&token=2fb5a2e703f1da4bdc92c5fee115148616e58d6e6d48bfe298a3014042bebe56e62af87d9569da6e178b0af2ca19ae22b4b0df6bbdc8c53eb442d031fc4bb0f7ad50ee2723b753f8d1)
+
+## [Product] Uber Eats: Uber [Easy]
+
+This problem was asked by Uber.
+
+Say you are on the UberEats team and considering shipping out a potential feature X. What metrics would you look at in order to A/B test this change?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/113?email=kinshukram@gmail.com&token=e72cd9fbd26487580d9caa0b1ae58e7fb71c097a1912f19ab0d3cffbbbecc919046b928ac95cf2c713ab95ed2cb48547a68745d03e241ca804260fd1819e28473a082343b7595c19a4)
+
+## [Probability] Mean Roll Times: Lyft [Medium]
+
+This problem was asked by Lyft.
+
+Suppose you roll a fair die n times, where n is very large. What is the average time between occurrences of a given number?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/114?email=kinshukram@gmail.com&token=126310a929dbc956a513397d8203ca9bc5292e6efb5da480e22f9668525216827885b3c41cfe0f7f7de140fea97f789584ea758550efd4fd6f2f771cb10a7262d03cb1f756fdd18fca)
