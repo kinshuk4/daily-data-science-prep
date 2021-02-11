@@ -761,3 +761,232 @@ Suppose you roll a fair die n times, where n is very large. What is the average 
 ------
 
 [Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/114?email=kinshukram@gmail.com&token=126310a929dbc956a513397d8203ca9bc5292e6efb5da480e22f9668525216827885b3c41cfe0f7f7de140fea97f789584ea758550efd4fd6f2f771cb10a7262d03cb1f756fdd18fca)
+
+## [Coding] Obstacle Paths: Twitch [Medium]
+
+This problem was asked by Twitch.
+
+You are given an m by n matrix with with 0s and 1s, where a 1 represents an obstacle and a 0 represents no obstacle. Determine the number of ways to navigate from the top-left corner of the matrix to the bottom right corner given that at any point in time there is only a move down or to the right as long as there is not an obstacle in that spot.
+
+For example, if the matrix is given by: [[0, 0, 0], [1, 1, 0], [0, 1, 0]] then you should return 1 since there is exactly one path.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/115?email=kinshukram@gmail.com&token=c4137e8e1d507a89d48dec462b09045bff4e5e7ec52957a6390bd70fbee55d2db585bbe7d387a167c0732b81af732689e58b6f029fd68d43f8ae3a347febb68db8337fa0946c3f40af)
+
+## [SQL] Top Zip Codes: Opendoor [Easy]
+
+This problem was asked by Opendoor.
+
+Assume you are given the below table on house prices from various zip codes that have been listed. Write a query to get the top 5 zip codes by market share of house prices for any zip code with at least 10000 houses.
+
+### house_listings
+
+| column_name  | type     |
+| ------------ | -------- |
+| house_id     | integer  |
+| zip_code     | integer  |
+| price        | float    |
+| listing_date | datetime |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/116?email=kinshukram@gmail.com&token=24f97625a7de7e8004cd6952d8c3afb17d104e6884f41816a5d77f679cbf966380016cf03cf10dc798d8a9617ea5901bd0ed54f951f2f478ea99e501c7145bacb61ac1c1078644e49c)
+
+## [Statistics] Conditional Expectation: Robinhood [Hard]
+
+This problem was asked by Robinhood.
+
+Say X and Y are independent and uniformly distributed on (0, 1). What is the expected value of X, given that X > Y?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/117?email=kinshukram@gmail.com&token=e60d01c02d8b7ba6301fb9ab9b741ed304f66c03a0297fa8efe96a7c2f21ce6e945e119d5a965459eeef8dba7d3516c386531906f8195348a893d285da72b88917b6c140ac7775ffd2)
+
+## [Probability] Fan Groups: Snapchat [Easy]
+
+This problem was asked by Snapchat.
+
+You are testing a new feature with various sample groups of three people. Assume that each person is equally likely to be a fan or not a fan of the feature. What is the probability that a randomly chosen group has exactly one fan, given that there is a fan among the three?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/118?email=kinshukram@gmail.com&token=c1692a1c29e4917ab689ff68174be7b9dd9cda2022603fac8e49867fde4aac7fa0c7fae3e321369bab80c4ff54ce41db52b472567ca6d0246211ca421e2724a648a59005c3eb22db19)
+
+## [Coding] Max of Sliding Window: Lyft [Hard]
+
+This problem was asked by Lyft.
+
+Given an array A of positive integers and an integer k, write a function to get the largest value within the sliding window of size k for A. Each sliding window is k numbers and moves from the leftmost to the rightmost within A, one position at a time.
+
+For example, if A = [2, 5, 3, 1, 4] and n = 2, then you should return [5, 5, 3, 4].
+
+## [Product] Uber Pro: Uber [Easy]
+
+This problem was asked by Uber.
+
+Uber Pro is a program that is designed to reward outstanding drivers. Think of it like a reward program on the driver side. What do you think are the important metrics for Uber Pro to look at, and how might Uber be able to tell if the service is effective?
+
+## [ML] LS Equivalence: Airbnb [Hard]
+
+This problem was asked by Airbnb.
+
+Suppose you are running a linear regression and model the error terms as being normally distributed. Show that in this setup, maximizing the likelihood of the data is equivalent to minimizing the sum of squared residuals.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/121?email=kinshukram@gmail.com&token=ae3e1dbe66354f152bb4c03408fb804e4028c0a33b1f11537a75b5dcededf80533d380dc4d13553974d4047e7bcd89eae9892a0dbcc6c4bd686ebdbf53750c43e37cb350f033ea35cb)
+
+## [Coding] Smallest K Pairs: Apple [Medium]
+
+This problem was asked by Apple.
+
+Given two sorted arrays of positive integers, and an integer k, determine the k smallest pairs among the two arrays, where a pair is defined as having exactly one element from the first array and one element from the second array.
+
+For example, if the k = 3 and the two arrays are [1, 3, 6, 10] and [2, 5, 7, 9] then [[1, 2], [3, 2], [1, 5]] since those are the three smallest pairs.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/122?email=kinshukram@gmail.com&token=a6d5ef21cb5f2f9e7639bebacd511bc8a975fb8e7f4be73799853dc85105393f805cfeb4512783df5d723fa8b3e40b223a21a55c58e39014926c1bb9019a8e7b80abb72e113bec0d6d)
+
+## [SQL] Earliest Purchase: Etsy [Easy]
+
+This problem was asked by Etsy.
+
+Assume you are given the below table on transactions from users for purchases. Write a query to get the list of customers where their earliest purchase was at least $50.
+
+### user_transactions
+
+| column_name      | type     |
+| ---------------- | -------- |
+| transaction_id   | integer  |
+| product_id       | integer  |
+| user_id          | integer  |
+| spend            | float    |
+| transaction_date | datetime |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/123?email=kinshukram@gmail.com&token=531dbe426d3cda91576e42a54891efc74fac8edf10b011bf9faf75f76b4eaf770cb9419177eb93698f0b775cbe44b74f8504dc4c368c7bca4bde8a6bd7ce4297fb040bb82bda855ee5)
+
+## [Statistics] Geometric Expectation: Facebook [Hard]
+
+This problem was asked by Facebook.
+
+Derive the expectation for a geometric distributed random variable.
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/124?email=kinshukram@gmail.com&token=9f8dd2359ebc9eec2b2aeea53954d73e2a84022c16a5af091e615cd6d10bb3535e181a9493549c348b81ed43500ec35117c942c2e4ab6b93c2ac6aee565fe2a4e63750740daf95bb6b)
+
+## [Probability] Waiting Time: Twilio [Easy]
+
+This problem was asked by Twilio.
+
+You are modeling the wait time a customer has for a support call as exponentially distributed with a mean of 10 minutes. Suppose a customer calls in and is told that all lines are currently busy, and the most recent last spot was occupied 5 minutes ago. What is the probability that the current customer will need to wait no more than another 5 minutes?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/125?email=kinshukram@gmail.com&token=031d3f98082495aa11aeb3ef7fd4b8dd86eadd3ee90ea384c7df7f413f2c00c12e299e50fbb0a175f39521db438a57964e6994ce5b42c0dc7c331a13ef192577a26fd9766ff1660716)
+
+## [Coding] Palindrome Counting: Opendoor [Medium]
+
+Here's today's problem:
+
+This problem was asked by Opendoor.
+
+Given a string, return the count of substrings within the string that are palindromes.
+
+For example, if input is "aba": return 4, since the palindromes are: "a", "b", "a", and "aba".
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/126?email=kinshukram@gmail.com&token=55fb49e2712f7e1e75fa23473b8dcb66045e8cd1c9ae22aac48e96780f66fce2801f69e1cf50efb18e908f45664bf2a81332c5b9298385d9cc1968416eb98404c0b2b1a1a6fa71521a)
+
+## [Statistics] Roll Correlation: Robinhood [Hard]
+
+This problem was asked by Robinhood.
+
+Say you roll a fair dice 5 times. Let X be the number of times a 2 was rolled, and Y the number of times a 3 was rolled. What is the correlation coefficient between X and Y?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/127?email=kinshukram@gmail.com&token=0ec4388818cef667649a8218bfae951b7fa75c3cf2aec19a8d67df481a0103fcb21e16f0148f846b1491b0e7c21f06340cf3200bf7a6763646969763864490b82df23b0f3420b27e37)
+
+## [Product] Duolingo Success: Duolingo [Easy]
+
+This problem was asked by Duolingo.
+
+How would you measure Duolingo's success from a product standpoint, and another metric you would use to measure its success from a financial standpoint?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/128?email=kinshukram@gmail.com&token=686d7ce6673946a4b660f818c5bf0d87a06e515fd23e6db4a061a1343b6dd7fef8f35c1d136a24d4aab26b5433d22df55ab90866c2e01129e70d2152bda0dce3c8e91a058c1f72a065)
+
+## [ML] Logistic Regression MLE: Stripe [Hard]
+
+This problem was asked by Stripe.
+
+Describe the model formulation behind logistic regression. How do you maximize the log-likelihood of a given model (using the two-class case)?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/129?email=kinshukram@gmail.com&token=4d28e5a6d2d0623751b8ef7ef520c89caface23e396208d3ca31d7aadeda9755924d5f5270469c84cce6f911d7ea523ce9965412410caf105ee50c45dcf730075d68ecbca6bf750e3d)
+
+## [SQL] Watch Times: Disney [Easy]
+
+This problem was asked by Disney.
+
+Assume you are given the below table on watch times (in minutes) for all users, where each user is based in a given city. Write a query to return all pairs of cities that have total watch times within 10000 minutes of one another.
+
+### watch_activity
+
+| column_name | type     |
+| ----------- | -------- |
+| user_id     | integer  |
+| session_id  | integer  |
+| watch_time  | float    |
+| city_name   | string   |
+| date        | datetime |
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/130?email=kinshukram@gmail.com&token=beda2f2c4ab6071b5ccda2feccf7d6a41ce1b9728a56e3f72476727aa5cff05f80ad9678f1e3ba2c960ae301ecd9d09bce6b3c5ee8a34295476e015fd8b192bbfebcef29c1fe868eee)
+
+## [Coding] All Combinations: Twitch [Medium]
+
+This problem was asked by Twitch.
+
+Given an integer n and an integer k, output a list of all of the combinations of k numbers from 1 to n.
+
+For example, if the n = 3, and k = 2 then return: [1, 2], [1, 3], [2, 3].
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/131?email=kinshukram@gmail.com&token=2096a3396ee6a466c2ae9ef8fd55bfffee5fe4afc97cec1eea245e2d0ada378449f825a0ed04a2f83d272960c4cabebd6cc68e827f77806d613daa46e1bd6fb8cc175876b44f9bd229)
+
+## [Statistics] Conditional Roll: Tesla [Medium]
+
+This problem was asked by Tesla.
+
+Say you roll a fair dice repeatedly. Let X be the number of rolls until a 1 is rolled, and Y the number of rolls until a 4 is rolled. What is E[X|Y=2]?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/132?email=kinshukram@gmail.com&token=356cd7c5e24f15f557b28d8e2ee198930f12ffa449d579c4ed79656ce012ef6ea4a9c1d7fa7ec939047c5a63000575c9a5dd570ee14a5ee598a7758c17929d1367643fba33f570af3f)
+
+## [Probability] Hit Show: Netflix [Hard]
+
+This problem was asked by Netflix.
+
+Before a show is released, it is shown to several in-house raters. You assume there are two types of shows: hits, which have an 80% chance of being liked by any viewer, and misses, which have a 20% chance of being liked by any viewer. There is currently a new show which you believe has a prior distribution of 60% being a hit, and 40% being a miss. Given that 8 raters rated the show and 6 of the 8 liked the show, what is the new posterior distribution of being a hit or miss?
+
+------
+
+[Get an in-depth solution to this problem here.](https://datascienceprep.com/solution/133?email=kinshukram@gmail.com&token=ed08d0a79736f259170f68693ef35987b3332a51e150be861ec29e6676eb61881a178a4a5989e653296ba3bcb69378cb178212f29b37db2d22e31543a52227329b86a7e05d8b5ac434)
+
+## [Product] Google Doodle: Google [Easy]
+
+This problem was asked by Google.
+
+Let's say you are on the team for Google Doodles. What metrics would you use to measure how successful a given Doodle was?
